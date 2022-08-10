@@ -8,15 +8,17 @@
 $font-size-default: 16px;
 // $font-size-small: 14px;
 
-$font-text-basic: "Raleway", "sans-serif";
-// $font-text-accent: "Press Start 2P", "cursive";
+$font-text-basic: 'Tahoma', 'Geneva', 'sans-serif';
 
 $color-text-default: #000;
-// $color-text-primary: #fff;
+$color-text-basic: #fff;
 // $color-text-secondary: #373737;
 $color-text-accent: #17ae51;
 
 $color-background-default: #fff;
-// $color-background-primary: #fff;
-// $color-background-secondary: #373737;
-// $color-background-accent: #d75347;
+$color-background-primary: #020202;
+$color-background-secondary: #303e4e;
+$color-background-accent: #ffc600;
+
+$color-border-default: #a09f9e;
+$color-border-accent: #ffc600;

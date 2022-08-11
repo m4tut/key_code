@@ -4,13 +4,10 @@
 set -e
 
 # сборка
-npm run build
+yarn build
 
 # переход в каталог сборки
 cd dist
-
-# если вы публикуете на пользовательский домен
-# echo 'www.example.com' > CNAME
 
 git init
 git add -A

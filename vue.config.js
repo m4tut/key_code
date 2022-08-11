@@ -3,6 +3,9 @@ const path = require('path')
 module.exports = {
   assetsDir: '',
   outputDir: 'dist',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? 'https://mtom4tut.github.io/key_code/'
+    : '/',
   productionSourceMap: false,
   css: {
     loaderOptions: {
